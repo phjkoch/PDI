@@ -36,7 +36,7 @@ conda activate pdi
 python PDI.py --help
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;Usage:  
-&nbsp;&nbsp;&nbsp;&nbsp;Create_NTDisconn.py ID in_lesion output_dir  
+&nbsp;&nbsp;&nbsp;&nbsp;PDI.py ID input output_dir side 
 
 &nbsp;&nbsp;&nbsp;&nbsp;positional arguments:  
 &nbsp;&nbsp;&nbsp;&nbsp;ID:                    Subject ID  
