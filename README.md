@@ -1,4 +1,4 @@
-# PDI
+# Perfusion Disconnectivity Imaging (PDI)
 Calculate Perfusion Disconnectivity 
 PDI ©️ 2025 by Philipp J. Koch is licensed under CC BY-NC-SA 4.0  
 [https://creativecommons.org/licenses/by-nc-sa/4.0](https://creativecommons.org/licenses/by-nc-sa/4.0)  
@@ -45,10 +45,10 @@ python PDI.py --help
 &nbsp;&nbsp;&nbsp;&nbsp;side:                  Specify affected hemisphere
 
                 
-
 5. Output  
 &nbsp;&nbsp;&nbsp;In the output_dir a directory named after the ID is created containing  
-&nbsp;&nbsp;&nbsp;2. A txt file with 2 millionen entries indicating which streamlines of the HCP-aging tractogram is passing through the individual lesion mask [1] and which are sparsed [0] for the CBF < 30%, Tmax > 6 sec and the respective penumbra
+&nbsp;&nbsp;&nbsp;2. A txt file with 2 millionen entries indicating which streamlines of the HCP-aging tractogram is passing through the individual lesion mask [1] and which are sparsed [0]
+&nbsp;&nbsp;&nbsp;for the CBF < 30% (Core lesion), Tmax > 6 sec (Tissue at risk), and the respective penumbra
 
 
 
