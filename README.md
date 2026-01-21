@@ -44,7 +44,7 @@ python PDI.py ID input output_dir side
                 
 5. Output  
 In the output_dir a directory named after the ID is created containing  
-2. A txt file with 2 millionen entries indicating which streamlines of the HCP-aging tractogram  
+A txt file with 2 millionen entries indicating which streamlines of the HCP-aging tractogram  
 is passing through the individual lesion mask [1] and which are sparsed [0]  
 for the CBF < 30% (Core lesion), Tmax > 6 sec (Tissue at risk), and the respective penumbra  
 
