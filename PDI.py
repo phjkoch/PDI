@@ -67,8 +67,8 @@ def main():
     if os.path.isfile(cbf) == True:
         print("DCM2NII already performed")
     else:
-        #dcm2nii_cmd = "dcm2niix -b y -z y -f " + args.ID + "_%d -o " + args.input + " " + args.input
-        #subprocess.call(dcm2nii_cmd, shell=True)
+        dcm2nii_cmd = "dcm2niix -b y -z y -f " + args.ID + "_%d -o " + args.input + " " + args.input
+        subprocess.call(dcm2nii_cmd, shell=True)
 
         print(glob.glob(os.path.join(args.input, "*MIP*nii.gz")))
         print(glob.glob(os.path.join(args.input, "*TMAX*nii.gz")))
